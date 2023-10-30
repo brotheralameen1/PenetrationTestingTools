@@ -1,0 +1,57 @@
+I've seen whois and domain web tools shared here but essentially many of these can be accessed directly in basic command line a few clicks away from your environment.
+
+For the one that you don't need to install anything:
+
+nslookup site.com - IP lookup a domain
+
+whois site.com - what the tool does, and you can copy the email
+
+traceroute site.com or tracert 0.0.0.0 - network route tracking
+
+ping 0.0.0.0 - check host availability
+
+wget -S --spider https://sub.site.com - web spider
+
+wget --mirror --convert-links --adjust-extension --page-requisites --span-hosts site.com - mirror offline domain/URL/content and related subdomains.
+
+curl -s http://site.com - dump the page content
+
+curl -o https://site.com/robots.txt file.txt - to download and rename files
+
+nc -vzu site.org 8080 - check for open port
+
+nmap -sV —script vuln 1.1.1.1
+
+nmap -Pn -sP -A 13.113.196.1/24 - list all the hosts from site.com. Within WLAN this command can also scan and list all users on the same local network as you.
+
+shodan host --history 1.1.1.1 - (.edu gets free acct) list all host history
+
+shodan domain -HD site.com - list domain history and details
+
+shodan scan 13.113.196.1/24 - scan all IPs on site.com
+
+Some extra reading:
+
+https://github.com/C3n7ral051nt4g3ncy/cURL_for_OSINT/blob/master/README.md
+
+https://github.com/blaCCkHatHacEEkr/OSINT_TIPS/blob/master/README.md
+
+https://ptestmethod.readthedocs.io/en/latest/LFF-IPS-P1-IntelligenceGathering.html
+
+
+In the case of nmap be aware that you are leaving a pretty clear trace back to your ip address with this type of scan. Depending what hosts you are scanning you could raise some eyebrows.
+
+Download it, use it, but just understand what you are doing and that you are making a lot of noise that can be seen on a network. A great tool for troubleshooting your own network, but others may not be to thrilled if you start scanning theirs.
+
+Read before using. https://linux.die.net/man/1/nmap
+
+
+You can set nmap -e and specify the interface to a VPN if you are running one.
+
+
+
+Edit: Alternatively I believe you can also "spoof" the IP using nmap -S and there is also the --proxies option to run through HTTP/SOCKS5.
+
+You can even spoof the MAC using --spoof-mac.
+
+
