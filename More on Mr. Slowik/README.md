@@ -1,1 +1,3 @@
+DISCLAIMER: I don't condone the uage of anything presented in this folder for illegal purposes, neither do I do anything illegal, so I recommend you stick with local laws and policy by legislations around your area. You may use these guides for your own security research, but don't attempt anything against the law as it can result to civil liability and prosecution.
+
 This folder won't really have any penetration testing tools but will contain more of what is with Mr. Slowik. The Rabbit E-Whoring Guide was a guide by D4RKR4BB1T which existed back before he became a Security Researcher. Nonetheless, the point of this folder is to prove rather that it's in Mr. Slowik's archives and taken from his Google Drive, as he has this stuff on R4BB1T from back in the day.
