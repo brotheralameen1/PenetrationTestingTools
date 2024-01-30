@@ -2,4 +2,4 @@ DISCLAIMER: I don't condone the uage of anything presented in this folder for il
 
 This folder won't really have any penetration testing tools but will contain more of what is with Mr. Slowik. The Rabbit E-Whoring Guide was a guide by D4RKR4BB1T which existed back before he became a Security Researcher. Nonetheless, the point of this folder is to prove rather that it's in Mr. Slowik's archives and taken from his Google Drive, as he has this stuff on R4BB1T from back in the day.
 
-The Hakin9 EVIL RABBIT Document is the same document that's in his Google Drive as well. While I do have more information on Mr. Slowik, I've promised him not to diss him anymore and even there's information on him breaching national security secrets, which I won't put up here since it's Top Secret.
+The Hakin9 EVIL RABBIT Document is the same document that's in his Google Drive as well. While I do have more information on Mr. Slowik, I've promised him not to diss him anymore and even there's information on his group members breaching national security secrets, which I won't put up here since it's Top Secret.
