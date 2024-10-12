@@ -14,7 +14,7 @@ npm install http
 
 Finally, run the exploit using this command:
 
-node exploit.js
+node test.js
 
 Done.
 
