@@ -6,6 +6,6 @@ NOTE: Although the ua_parser_js commonly has CVE's tied to DOS (Denial of Servic
 
 CVE's tied to ua_parser_js:
 
-CVE-2022-25927 CVE-2021-27292 CVE-2020-7733 CVE-2020-7793 (All which are used for Denial of Service Attacks)
+CVE-2022-25927, CVE-2021-27292, CVE-2020-7733, CVE-2020-7793 (All which are used for Denial of Service Attacks)
 
-This tool can be helpful when it comes to performing your bug hunting and bug bounty programs. Please note that hacking is illegal, so please use this in a system you are permitted to test on. Don't use this for any unauthorized purposes.
+This tool can be helpful when it comes to performing your bug hunting and bug bounty programs and goes deeper into performing penetration tests to gain RCE and Reverse Shells. Please note that hacking is illegal, so please use this in a system you are permitted to test on. Don't use this for any unauthorized purposes, I will not be responsible for any unauthorized use of this tool by you. You have been warned.
