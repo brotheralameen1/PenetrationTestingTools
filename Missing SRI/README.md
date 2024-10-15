@@ -14,4 +14,4 @@ You should get a dialog box opening to confirm the vulnerability. If, however, y
 2. If it's not there and tools like nuclei identified it to be a potential vulnerability tied to Missing RSI then you can confirm this with the last step
 3. Use your Browser Debugger Console to run this script: alert("This is malicious script!") and if you see a dialog box then you've confirmed the presence of the vulnerability.
 
-4. Please use this tool responsibly; I will not be responsible for any harm you perform using this tool. 
+Please use this tool responsibly; I will not be responsible for any harm you perform using this tool. 
