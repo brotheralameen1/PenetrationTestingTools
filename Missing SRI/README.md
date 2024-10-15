@@ -14,4 +14,4 @@ You should get a dialog box opening to confirm the vulnerability. If, however, y
 2. If it's not there and tools like nuclei identified it to be a potential vulnerability tied to Missing SRI then you can confirm this with the last step
 3. Use your Browser Debugger Console to run this script: alert("This is malicious script!") and if you see a dialog box then you've confirmed the presence of the vulnerability.
 
-Please use this tool responsibly; I will not be responsible for any harm or misuse you perform using this tool. This tool is only used to confirm the vulnerability and report to HackerOne and doesn't contain any malicious entries that can harm a system and is meant to be for educational and testing purposes (for bug bounty hunters) only.
+Please use this tool responsibly; I will not be responsible for any harm or misuse you perform using this tool. This tool is only used to confirm the vulnerability and report to HackerOne and doesn't contain any malicious entries that can harm a system and is meant to be for educational and testing purposes (for bug bounty hunters and cybersecurity analyst) only.
