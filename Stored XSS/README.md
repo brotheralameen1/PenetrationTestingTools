@@ -6,14 +6,14 @@ To use this file, simply follow these steps:
 
 1. Clone the repository
 2. Navigate to: https://github.com/cornerpirate/JS2PDFInjector/ and clone the repository
-3. Copy the JS and PDF file from this the cloned directory for Stored XSS and add it to the directory of where you cloned the Injector
+3. Copy the JS and PDF (Not Injected) file from this the cloned directory for Stored XSS and add it to the directory of where you cloned the Injector
 4. Use Java to execute the Injector as shown in the above repository
 5. Use the poisoned PDF Document to upload the PDF with the malicious payload online to the Vulnerable Web Application System and wait for the dialog box to appear to confirm stored XSS. If you don't get a dialog box then the Web Application isn't vulnerable.
 
 Or
 
 1. Clone this repository
-2. Take the Injected XSS Document
+2. Take the Injected XSS PDF Document
 3. Upload it to a Web Server you suspect to have an upload system that doesn't filter any malicious code and accepts only PDF Files, filters for only files as PDFs.
 4. Check for a dialog box and confirm XSS
 
