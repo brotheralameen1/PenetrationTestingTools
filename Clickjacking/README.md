@@ -1,0 +1,10 @@
+This tool is used to test a vulnerable endpoint of a Web Application System for Clickjacking. Please use this tool wisely. The tool can edited to your demands to add a form in order to perform exploits to further confirm vulnerabilities, little to no social engineering may be required depending on the situation and the potential of the exploit. Don't use this tool for illegal purposes and always obtain permission before using this tool. This tool is used to help ease the work of Security Researchers and Bug Bounty Hunters during the finding of vulnerabilities in Web Application Systems; I will not be responsible for any misuse done by you using this tool.
+
+To use this tool:
+
+1. Clone the repository and edit the HTML File
+2. Add the vulnerable endpoint to the HTML File
+3. Open the HTML File on the browser and confirm if the page opens
+4. Congratulations, you've confirmed clickjacking.
+
+When reporting bug bounties and vulnerability disclosures using this tool, it is important to consider whether or not the endpoint you've chosen has a capability of performing exploitable and malicious actions such as changing password or it wouldn't be considered a vulnerability to report. Inclusive, if Social Engineering is required, since this requires human to human interaction, bug bounties or VDP's won't accept the use of Social Engineering in any manner and these are normally out of scope. Nonetheless, if you're able to exploit a change of a password using clickjacking and a hidden iframe after clicking on the HTML and clicking submit (Which would obviously autofill a form depending on the forum you used at the vulnerable endpoint) without user interaction or social engineering, then this can be reported as a potential vulnerability to HackerOne since a malicious action can be performed on the form. You can use a hidden iframe and an autofilled form similar to CSRF to test the autofill and submit the request for password change. If there's nothing similar to this but the page can be iframed then it's vulnerable but not exploitable. Thus, it's useless to report.
