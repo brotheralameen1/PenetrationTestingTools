@@ -4,7 +4,7 @@ This file contians a JavaScript Code that logs an API Key of an Admin Account th
 
 To use this tool, do the following:
 
-1. Edit the HTML file to include the vulnerable endpoint and host
+1. Edit the HTML file to include the vulnerable endpoint and host, configure ngrok and setup the ngrok URL as well (If using a web hosting server, configure it to use that instead of ngrok)
 2. Save the file and upload it to a web server, hosting or use ngrok to tunnel it
 3. Attempt some Social Engineering with the Admin to make him open the link
 4. The API key should be returned back to you once the Admin opens the link and should also display on their screen
