@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image, ImageDraw
 
 # XSS payload
 xss_payload = "<script>alert('XSS');</script>"
