@@ -1,4 +1,4 @@
-This tool enables you to inject JavaScript Files into MP3 Files. This can come handy when testing for Stored XSS in Vulnerable Web Application Systems. 
+This tool enables you to inject JavaScript Code into MP3 Files. This can come handy when testing for Stored XSS in Vulnerable Web Application Systems. 
 
 NB: This tool is for educational purposes only. Please don't misuse this tool for any illegal purposes. This tool is meant to help further support the White Hat Hacking Community and Bug Bounty Hunters as well in Web Application Security. You have been warned; I will not be responsible for any illegal use of this tool done by you.
 
