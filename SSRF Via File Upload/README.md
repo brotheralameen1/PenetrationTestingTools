@@ -4,7 +4,7 @@ Please note that this file is specifically used for Penetration Testing, Web App
 
 To use this file:
 
-1. Edit the file using any kind of text editor
+1. Clone this repository and Edit the file using any kind of text editor
 2. Change the BACKLINK_URL to any URL that can send back information to you (You can use Burp Suite Collaborator if you have Burp Suite Professional or you can use interactsh by ProjectDiscovery, which is also a good tool to test for SSRF Vulnerabilities and has the same functionality as Burp Suite Collaborator).
 3. Save the file
 4. Upload the file to the server with a file upload
